@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     //    let mediumTime = 7
     //    let hardTime = 12
     // Using single dictionary to set times
-    let eggTimes: [String:Int] = ["Soft": 3, "Medium": 420, "Hard": 720]
+    let eggTimes: [String:Int] = ["Soft": 300, "Medium": 420, "Hard": 720]
     var totalTime = 0
     var secondsPassed = 0
     var timer = Timer() //timer variable that holds the timer function
