@@ -26,20 +26,29 @@ struct QuizBrain {
         
 //variable to keep track of which question the user is currently reading
 var questionNumber = 0
+var score = 0
 
-    func checkAnswer(_ userAnswer: String) -> Bool {
+    mutating func checkAnswer(_ userAnswer: String) -> Bool {
         if userAnswer == quiz[questionNumber].answer {
+            score += 1
             return true
         } else {
             return false
         }
     }
     
-    func nextQuestion() {
+    func getScore() -> Int {
+        
+        return score
+    }
+    
+    //telling the computer that when this function is run, it will replace the old value with a new value
+    mutating func nextQuestion() {
         if questionNumber + 1 < quiz.count { //add 1 so that the number surpasses the count
             questionNumber += 1
         } else {
             questionNumber = 0
+            score = 0 //reset score and question number to zero when user has gone through all the questions
         }
     }
     

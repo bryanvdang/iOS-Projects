@@ -4,12 +4,13 @@
 //
 //  Created by Bryan Dang on 4/20/20.
 //  Copyright © 2020 Bryan Dang. All rights reserved.
-//
+//  Controller in charge of delegating tasks and calling the methods in QuizBrain (quizBrain.nextQuestion()) and updating the UI
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var progressBar: UIProgressView!
     @IBOutlet weak var trueButton: UIButton!
@@ -47,8 +48,7 @@ class ViewController: UIViewController {
         
         trueButton.backgroundColor = UIColor.clear //clear UI button after every question
         falseButton.backgroundColor = UIColor.clear
-        
-
+        scoreLabel.text = "Score: \(quizBrain.getScore())"
     }
 }
 
