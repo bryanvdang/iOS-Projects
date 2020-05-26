@@ -53,6 +53,8 @@ class CalculateViewController: UIViewController {
                 //as! ResultsViewController set 'destinationVC' from type UIViewController to ResultsViewController which makes bmiValue accessible.
                 // 'as!' is a forced downcast from UIViewController to ResultsViewController
                 destinationVC.bmiValue = calculatorBrain.getBMIValue()
+                destinationVC.advice = calculatorBrain.getAdvice()
+                destinationVC.color = calculatorBrain.getColor()
             }
         }
     }

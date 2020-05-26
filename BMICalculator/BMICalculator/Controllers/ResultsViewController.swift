@@ -11,7 +11,9 @@ import UIKit
 class ResultsViewController: UIViewController {
     
     var bmiValue: String? //set as an optional string because, initially, when I create my resultsViewController, I don't know what the BMI value is going to be. Its only once I calculated the BMI, then I can actually pass it over.
-
+    var advice: String?
+    var color: UIColor?
+    
     @IBOutlet weak var bmiLabel: UILabel!
     @IBOutlet weak var adviceLabel: UILabel!
     
@@ -19,6 +21,8 @@ class ResultsViewController: UIViewController {
         super.viewDidLoad()
 
         bmiLabel.text = bmiValue
+        adviceLabel.text = advice
+        view.backgroundColor = color
     }
     
     @IBAction func recalculatePressed(_ sender: UIButton) {
