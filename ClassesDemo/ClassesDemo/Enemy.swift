@@ -1,9 +1,13 @@
-//
-//  Enemy.swift
-//  ClassesDemo
-//
-//  Created by Bryan Dang on 4/29/20.
-//  Copyright © 2020 Bryan Dang. All rights reserved.
-//
-
-import Foundation
+//convention that class matches name of file
+class Enemy {
+    var health = 100
+    var attackStrength = 10
+    
+    func move() {
+        print("Walk forwards")
+    }
+    
+    func attack() {
+        print("Land a hit, does \(attackStrength) damage.")
+    }
+}

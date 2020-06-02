@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB777CEF244E31F700F02C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB777CEE244E31F700F02C54 /* AppDelegate.swift */; };
-		FB777CF1244E31F700F02C54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB777CF0244E31F700F02C54 /* SceneDelegate.swift */; };
-		FB777CF3244E31F700F02C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB777CF2244E31F700F02C54 /* ViewController.swift */; };
-		FB777CF6244E31F700F02C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB777CF4244E31F700F02C54 /* Main.storyboard */; };
-		FB777CF8244E31F700F02C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB777CF7244E31F700F02C54 /* Assets.xcassets */; };
-		FB777CFB244E31F700F02C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB777CF9244E31F700F02C54 /* LaunchScreen.storyboard */; };
-		FB7D221624528FAB00C255F3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D221524528FAB00C255F3 /* Question.swift */; };
-		FB7D221A2452927C00C255F3 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D22192452927C00C255F3 /* QuizBrain.swift */; };
+		FB1BE3E22486948B00E18D71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1BE3E12486948B00E18D71 /* SceneDelegate.swift */; };
+		FB1BE3E92486948C00E18D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1BE3E82486948C00E18D71 /* Assets.xcassets */; };
+		FB1BE3EC2486948C00E18D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1BE3EA2486948C00E18D71 /* LaunchScreen.storyboard */; };
+		FB1DC5B624869E9D00AE1FC1 /* light_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FB1DC5B424869E9D00AE1FC1 /* light_background.pdf */; };
+		FB1DC5B724869E9D00AE1FC1 /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FB1DC5B524869E9D00AE1FC1 /* dark_background.pdf */; };
+		FB1DC5B92486A09000AE1FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DC5B82486A09000AE1FC1 /* AppDelegate.swift */; };
+		FBE388532486D60000501D81 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE388522486D60000501D81 /* WeatherViewController.swift */; };
+		FBE3885B2486D73200501D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE3885A2486D72100501D81 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FB777CEB244E31F700F02C54 /* Quizlet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizlet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB777CEE244E31F700F02C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB777CF0244E31F700F02C54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB777CF2244E31F700F02C54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB777CF5244E31F700F02C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FB777CF7244E31F700F02C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FB777CFA244E31F700F02C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FB777CFC244E31F700F02C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB7D221524528FAB00C255F3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		FB7D22192452927C00C255F3 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
+		FB1BE3DC2486948B00E18D71 /* ClimateBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1BE3E12486948B00E18D71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB1BE3E82486948C00E18D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB1BE3EB2486948C00E18D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB1BE3ED2486948C00E18D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1DC5B424869E9D00AE1FC1 /* light_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = light_background.pdf; sourceTree = "<group>"; };
+		FB1DC5B524869E9D00AE1FC1 /* dark_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dark_background.pdf; sourceTree = "<group>"; };
+		FB1DC5B82486A09000AE1FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBE388522486D60000501D81 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		FBE3885A2486D72100501D81 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FB777CE8244E31F700F02C54 /* Frameworks */ = {
+		FB1BE3D92486948B00E18D71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,98 +41,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FB56199124528D6A00ED364D /* View */ = {
+		FB1BE3D32486948B00E18D71 = {
 			isa = PBXGroup;
 			children = (
-				FB777CF4244E31F700F02C54 /* Main.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		FB56199224528D9800ED364D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				FB777CF2244E31F700F02C54 /* ViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		FB777CE2244E31F700F02C54 = {
-			isa = PBXGroup;
-			children = (
-				FB777CED244E31F700F02C54 /* Quizlet */,
-				FB777CEC244E31F700F02C54 /* Products */,
+				FB1BE3DE2486948B00E18D71 /* ClimateBuddy */,
+				FB1BE3DD2486948B00E18D71 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FB777CEC244E31F700F02C54 /* Products */ = {
+		FB1BE3DD2486948B00E18D71 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB777CEB244E31F700F02C54 /* Quizlet.app */,
+				FB1BE3DC2486948B00E18D71 /* ClimateBuddy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FB777CED244E31F700F02C54 /* Quizlet */ = {
+		FB1BE3DE2486948B00E18D71 /* ClimateBuddy */ = {
 			isa = PBXGroup;
 			children = (
-				FB777CEE244E31F700F02C54 /* AppDelegate.swift */,
-				FB777CF0244E31F700F02C54 /* SceneDelegate.swift */,
-				FB7D221824528FD900C255F3 /* Model */,
-				FB56199224528D9800ED364D /* Controller */,
-				FB56199124528D6A00ED364D /* View */,
-				FB777CF7244E31F700F02C54 /* Assets.xcassets */,
-				FB777CF9244E31F700F02C54 /* LaunchScreen.storyboard */,
-				FB777CFC244E31F700F02C54 /* Info.plist */,
+				FBE3885C2486D73900501D81 /* View */,
+				FB1DC5B324869A2100AE1FC1 /* Model */,
+				FBE388552486D62D00501D81 /* Controller */,
+				FB1BE3E82486948C00E18D71 /* Assets.xcassets */,
+				FB1DC5B82486A09000AE1FC1 /* AppDelegate.swift */,
+				FB1BE3E12486948B00E18D71 /* SceneDelegate.swift */,
+				FB1BE3EA2486948C00E18D71 /* LaunchScreen.storyboard */,
+				FB1BE3ED2486948C00E18D71 /* Info.plist */,
+				FB1DC5B524869E9D00AE1FC1 /* dark_background.pdf */,
+				FB1DC5B424869E9D00AE1FC1 /* light_background.pdf */,
 			);
-			path = Quizlet;
+			path = ClimateBuddy;
 			sourceTree = "<group>";
 		};
-		FB7D221824528FD900C255F3 /* Model */ = {
+		FB1DC5B324869A2100AE1FC1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FB7D221524528FAB00C255F3 /* Question.swift */,
-				FB7D22192452927C00C255F3 /* QuizBrain.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FBE388552486D62D00501D81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FBE388522486D60000501D81 /* WeatherViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FBE3885C2486D73900501D81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FBE3885A2486D72100501D81 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FB777CEA244E31F700F02C54 /* Quizlet */ = {
+		FB1BE3DB2486948B00E18D71 /* ClimateBuddy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB777CFF244E31F700F02C54 /* Build configuration list for PBXNativeTarget "Quizlet" */;
+			buildConfigurationList = FB1BE3F02486948C00E18D71 /* Build configuration list for PBXNativeTarget "ClimateBuddy" */;
 			buildPhases = (
-				FB777CE7244E31F700F02C54 /* Sources */,
-				FB777CE8244E31F700F02C54 /* Frameworks */,
-				FB777CE9244E31F700F02C54 /* Resources */,
+				FB1BE3D82486948B00E18D71 /* Sources */,
+				FB1BE3D92486948B00E18D71 /* Frameworks */,
+				FB1BE3DA2486948B00E18D71 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Quizlet;
-			productName = Quizlet;
-			productReference = FB777CEB244E31F700F02C54 /* Quizlet.app */;
+			name = ClimateBuddy;
+			productName = ClimateBuddy;
+			productReference = FB1BE3DC2486948B00E18D71 /* ClimateBuddy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FB777CE3244E31F700F02C54 /* Project object */ = {
+		FB1BE3D42486948B00E18D71 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Bryan Dang";
 				TargetAttributes = {
-					FB777CEA244E31F700F02C54 = {
-						CreatedOnToolsVersion = 11.4.1;
+					FB1BE3DB2486948B00E18D71 = {
+						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = FB777CE6244E31F700F02C54 /* Build configuration list for PBXProject "Quizlet" */;
+			buildConfigurationList = FB1BE3D72486948B00E18D71 /* Build configuration list for PBXProject "ClimateBuddy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,57 +140,49 @@
 				en,
 				Base,
 			);
-			mainGroup = FB777CE2244E31F700F02C54;
-			productRefGroup = FB777CEC244E31F700F02C54 /* Products */;
+			mainGroup = FB1BE3D32486948B00E18D71;
+			productRefGroup = FB1BE3DD2486948B00E18D71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FB777CEA244E31F700F02C54 /* Quizlet */,
+				FB1BE3DB2486948B00E18D71 /* ClimateBuddy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FB777CE9244E31F700F02C54 /* Resources */ = {
+		FB1BE3DA2486948B00E18D71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB777CFB244E31F700F02C54 /* LaunchScreen.storyboard in Resources */,
-				FB777CF8244E31F700F02C54 /* Assets.xcassets in Resources */,
-				FB777CF6244E31F700F02C54 /* Main.storyboard in Resources */,
+				FB1DC5B724869E9D00AE1FC1 /* dark_background.pdf in Resources */,
+				FBE3885B2486D73200501D81 /* Main.storyboard in Resources */,
+				FB1DC5B624869E9D00AE1FC1 /* light_background.pdf in Resources */,
+				FB1BE3EC2486948C00E18D71 /* LaunchScreen.storyboard in Resources */,
+				FB1BE3E92486948C00E18D71 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FB777CE7244E31F700F02C54 /* Sources */ = {
+		FB1BE3D82486948B00E18D71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB7D221A2452927C00C255F3 /* QuizBrain.swift in Sources */,
-				FB777CF3244E31F700F02C54 /* ViewController.swift in Sources */,
-				FB7D221624528FAB00C255F3 /* Question.swift in Sources */,
-				FB777CEF244E31F700F02C54 /* AppDelegate.swift in Sources */,
-				FB777CF1244E31F700F02C54 /* SceneDelegate.swift in Sources */,
+				FB1DC5B92486A09000AE1FC1 /* AppDelegate.swift in Sources */,
+				FBE388532486D60000501D81 /* WeatherViewController.swift in Sources */,
+				FB1BE3E22486948B00E18D71 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FB777CF4244E31F700F02C54 /* Main.storyboard */ = {
+		FB1BE3EA2486948C00E18D71 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FB777CF5244E31F700F02C54 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FB777CF9244E31F700F02C54 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB777CFA244E31F700F02C54 /* Base */,
+				FB1BE3EB2486948C00E18D71 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -198,7 +190,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FB777CFD244E31F700F02C54 /* Debug */ = {
+		FB1BE3EE2486948C00E18D71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -258,7 +250,7 @@
 			};
 			name = Debug;
 		};
-		FB777CFE244E31F700F02C54 /* Release */ = {
+		FB1BE3EF2486948C00E18D71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -302,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -312,41 +304,37 @@
 			};
 			name = Release;
 		};
-		FB777D00244E31F700F02C54 /* Debug */ = {
+		FB1BE3F12486948C00E18D71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3CHB4SGWSW;
-				INFOPLIST_FILE = Quizlet/Info.plist;
+				INFOPLIST_FILE = ClimateBuddy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.DangFit.QuizApp;
+				PRODUCT_BUNDLE_IDENTIFIER = co.DangFit.ClimateBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FB777D01244E31F700F02C54 /* Release */ = {
+		FB1BE3F22486948C00E18D71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3CHB4SGWSW;
-				INFOPLIST_FILE = Quizlet/Info.plist;
+				INFOPLIST_FILE = ClimateBuddy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.DangFit.QuizApp;
+				PRODUCT_BUNDLE_IDENTIFIER = co.DangFit.ClimateBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,25 +343,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FB777CE6244E31F700F02C54 /* Build configuration list for PBXProject "Quizlet" */ = {
+		FB1BE3D72486948B00E18D71 /* Build configuration list for PBXProject "ClimateBuddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB777CFD244E31F700F02C54 /* Debug */,
-				FB777CFE244E31F700F02C54 /* Release */,
+				FB1BE3EE2486948C00E18D71 /* Debug */,
+				FB1BE3EF2486948C00E18D71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB777CFF244E31F700F02C54 /* Build configuration list for PBXNativeTarget "Quizlet" */ = {
+		FB1BE3F02486948C00E18D71 /* Build configuration list for PBXNativeTarget "ClimateBuddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB777D00244E31F700F02C54 /* Debug */,
-				FB777D01244E31F700F02C54 /* Release */,
+				FB1BE3F12486948C00E18D71 /* Debug */,
+				FB1BE3F22486948C00E18D71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FB777CE3244E31F700F02C54 /* Project object */;
+	rootObject = FB1BE3D42486948B00E18D71 /* Project object */;
 }

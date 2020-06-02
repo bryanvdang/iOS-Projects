@@ -1,12 +1,8 @@
-//
-//  main.swift
-//  ClassesDemo
-//
-//  Created by Bryan Dang on 4/28/20.
-//  Copyright © 2020 Bryan Dang. All rights reserved.
-//
 
-import Foundation
+let skeleton = Enemy()
 
-print("Hello, World!")
-
+let dragon = Dragon()
+print(dragon.wingspan)
+dragon.talk(speech: "RAWWRRRRRR I'm a DRAGON!!!!")
+dragon.move()
+dragon.attack()

@@ -11,10 +11,13 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var scoreLabel: UILabel!
+    
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var progressBar: UIProgressView!
-    @IBOutlet weak var trueButton: UIButton!
-    @IBOutlet weak var falseButton: UIButton!
+    
+    @IBOutlet weak var choice1: UIButton!
+    @IBOutlet weak var choice2: UIButton!
+    @IBOutlet weak var choice3: UIButton!
     
     var quizBrain = QuizBrain() //created an "instance" of the QuizBrain struct, now we can use our quiz brain inside our controller.
     
@@ -27,6 +30,7 @@ class ViewController: UIViewController {
     @IBAction func answerButtonPressed(_ sender: UIButton) {
 
         let userAnswer = sender.currentTitle! //current title is the 'true'/'false' buttons
+        
         let userGotItRight = quizBrain.checkAnswer(userAnswer) //check the user answer from line 28
     
         if userGotItRight == true { // can remove '== true' but keeping for readablity
@@ -44,11 +48,23 @@ class ViewController: UIViewController {
     @objc func updateUI() {
         //on page load, set the question label to quiz array
         questionLabel.text = quizBrain.getQuestionText() //set the question label
-        progressBar.progress = quizBrain.getProgress()
         
-        trueButton.backgroundColor = UIColor.clear //clear UI button after every question
-        falseButton.backgroundColor = UIColor.clear
-        scoreLabel.text = "Score: \(quizBrain.getScore())"
+        //Need to fetch the answers and update the button titles using the setTitle method.
+        let answerChoices = quizBrain.getAnswers()
+        choice1.setTitle(answerChoices[0], for: .normal)
+        choice2.setTitle(answerChoices[1], for: .normal)
+        choice3.setTitle(answerChoices[2], for: .normal)
+        
+        var text = "Score: \(quizBrain.getScore())"
+        text += "/ \(quizBrain.quiz.count)"
+        
+        progressBar.progress = quizBrain.getProgress()
+        scoreLabel.text = text
+        
+        choice1.backgroundColor = UIColor.clear //clear UI button after every question
+        choice2.backgroundColor = UIColor.clear
+        choice3.backgroundColor = UIColor.clear
+
     }
 }
 
